@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body > header {
+    background-color: rgb(69, 66, 87);
+    padding: 16px 0px;
+    color: #f5f6fa;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+header li a {
+    color: #f5f6fa;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 180px;*/
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.484);
+}
+
+.articles article img:hover {
+    /*height: 180px;*/
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.729);
+    transition-duration: 0.5s;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0px;
+}
+
+section h2, .articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin: 16px 0px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.484);
+    transition-duration: 0.5s;
+}
+
+.articles article p, .articles article a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#esportes {
+    background-color: rgba(0, 255, 0, 0.1);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+#esportes .articles article a {
+    background-color: #009432;
+}
+
+#economy {
+    background-color: #f8f59f;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+#economy .articles article a {
+    background-color: #ff9f1a;
+}
+
+#entretenimento {
+    background-color: #ca6161;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+#entretenimento .articles article a {
+    background-color: #ba1717;
+}
+
+#tecnologia {
+    background-color: #6b76cb;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+#tecnologia .articles article a {
+    background-color: #5a42e8;
+}
