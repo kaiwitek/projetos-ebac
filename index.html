@@ -18,7 +18,7 @@
 
         header {
             background-color: rgb(200, 192, 168);
-            color: rgb(84, 84, 84);
+            color: rgb(52, 52, 52);
             padding: 20px;
             display: flex;
             align-items: center;
@@ -31,7 +31,7 @@
             margin: 0px 150px;
         }
         
-        p {
+        header a {
             margin-right: 150px;
         }
 
@@ -60,24 +60,29 @@
             padding: 5px;
         }
 
-        li a {
+        li a, header a{
             text-decoration: none;
             color: rgba(0, 0, 0, 0.652);
+        }
+
+        li a:hover, header a:hover {
+            transition-duration: 0.3s;
+            color: rgb(0, 0, 0);
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Projetos EBAC</h1>
-        <p>Kai Witek</p>
+        <a href="https://github.com/kaiwitek" target="_blank">Kai Witek</a>
     </header>
     <section>
         <div>
             <h2>Acessar projetos:</h2>
             <ul>
-                <li><a href="Projeto 1 (Cartório EBAC)/cartorio.c">- Projeto 1 (Cartório EBAC)</a></li>
-                <li><a href="Projeto 2 (Página de notícias)/index.html">- Projeto 2 (Página de notícias)</a></li>
-                <li><a href="Projeto 3 (Loja de games)/index.html">- Projeto 3 (Loja de games)</a></li>
+                <li><a href="Projeto 1 (Cartório EBAC)/cartorio.c" target="_blank">- Projeto 1 (Cartório EBAC)</a></li>
+                <li><a href="Projeto 2 (Página de notícias)/index.html" target="_blank">- Projeto 2 (Página de notícias)</a></li>
+                <li><a href="Projeto 3 (Loja de games)/index.html" target="_blank">- Projeto 3 (Loja de games)</a></li>
             </ul>
         </div>
     </section>
