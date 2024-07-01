@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora dfe médias</title>
+    <title>Calculadora de médias</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,9 +15,9 @@
             <img src="imagens/logo.png" alt="capelo e diploma">
             <h1>Calculadora de médias</h1>
         </header>
-        <form>
-            <input type="text" placeholder="Nome da atividade" required>
-            <input type="number" min="0" max="10" placeholder="Nota" required>
+        <form id="formatv">
+            <input id="nomeatv" type="text" placeholder="Nome da atividade" required>
+            <input id="nota" type="number" min="0" max="10" placeholder="Nota" required>
             <button type="submit">Adicionar +</button>
         </form>
         <table cellspacing="0">
@@ -29,20 +29,16 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Atividade 1</td>
-                    <td>7</td>
-                    <td><img src="imagens/aprovado.png" alt="emoji comemorando"></td>
-                </tr>
             </tbody>
             <tfoot>
                 <tr>
                     <td>Média final</td>
-                    <td>7</td>
-                    <td><span class="resultado">Aprovado</span></td>
+                    <td id="mfv">---</td>
+                    <td><span id="mfr">---</span></td>
                 </tr>
             </tfoot>
         </table>
     </div>
+    <script src="./main.js"></script>
 </body>
 </html>
