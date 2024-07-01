@@ -67,6 +67,6 @@ function calculaMediaFinal() {
 function atualizaMediaFinal() {
     const mediaFinal = calculaMediaFinal()
 
-    document.getElementById('mfv').innerHTML = mediaFinal
+    document.getElementById('mfv').innerHTML = mediaFinal.toFixed(1)
     document.getElementById('mfr').innerHTML = mediaFinal >= notaMinima ? spanAprovado : spanReprovado
 }
