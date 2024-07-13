@@ -19,7 +19,7 @@ form.addEventListener('submit', function(e) {
 })
 
 function adicionaLinha() {
-    const inputNomeAtividade =  document.getElementById('nomeatv')
+    const inputNomeAtividade = document.getElementById('nomeatv')
     const inputNota = document.getElementById('nota')
 
     if (atividades.includes(inputNomeAtividade.value)) {

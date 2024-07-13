@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+}
+
+body {
+    background-color: rgb(208, 208, 208);
+    padding-top: 100px;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img {
+    height: 36px;
+    margin-right: 16px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    max-width: 650px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+form input {
+    font-size: 19px;
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+form button {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background-color: rgb(215, 192, 124);
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+table {
+    width: 75%;
+}
+
+table th {
+    font-size: 20px;
+    padding: 15px 0px;
+    border-bottom: 2px solid black;
+}
+
+table td {
+    padding: 15px 0px;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 1px solid rgb(177, 177, 177);
+}
