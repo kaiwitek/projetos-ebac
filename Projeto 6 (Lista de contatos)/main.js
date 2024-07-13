@@ -15,7 +15,7 @@ function adicionaLinha() {
     const inputNumero = document.getElementById('telctt')
 
     if (nome.includes(inputNome.value)) {
-        alert(`O contato ${inputNome.value} já existe`)
+        alert(`O contato "${inputNome.value}" já existe`)
     }
 
     else {
