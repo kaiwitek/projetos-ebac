@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(70, 70, 70);
+}
+
+div {
+    width: 800px;
+    margin: auto;
+    background-color: rgb(199, 199, 199);
+}
+
+div#container {
+    box-shadow: 0px 0px 10px black;
+    height: 100vh;
+}
+
+header {
+    width: 800px;
+    background-color: rgb(169, 169, 169);
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+}
+
+header button {
+    margin-left: 30px;
+    padding: 0px 4px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    width: 800px;
+    font-size: 20px;
+}
+
+form {
+    background-color: rgb(88, 88, 88);
+    font-size: 20px;
+    display: none;
+    text-align: center;
+    padding: 20px;
+}
+
+form input {
+    height: 30px;
+    width: 200px;
+    padding: 0px 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+form button {
+    margin-left: 15px;
+    padding: 0px 7px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p {
+    margin-top: 25px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#lista button {
+    margin-left: 10px;
+    padding: 0px 4px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#lista {
+    margin-top: 25px;
+    width: 500px;
+}
+
+h2 {
+    font-size: 23px;
+} 
+
+ul li {
+    margin-top: 25px;
+    font-size: 18px;
+    margin-left: 30px;
+    list-style: disc; 
+    cursor: pointer;
+}
+
+.completada {
+    text-decoration: line-through;
+}
+
+
+
