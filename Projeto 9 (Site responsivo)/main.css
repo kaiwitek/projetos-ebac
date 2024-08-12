@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
 }
-
+ 
 body {
     font-family: 'Roboto';
     background-color: rgb(201, 183, 159)
@@ -32,10 +32,6 @@ header li, header li a {
     margin-right: 30px;
     font-size: 20px;
     text-decoration: none;
-}
-
-header li a img {
-    width: 25px;
 }
 
 header div {
@@ -127,7 +123,11 @@ section#produtos div {
 #preco {
     font-size: 20px;
     font-weight: bold; 
-    color: rgb(81, 221, 81);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgb(7, 196, 7);
+    width: 60%;
+    margin: auto;
 }
 
 #lista-de-produtos li button {
@@ -152,7 +152,131 @@ footer {
     text-align: center;
 }
 
+@media screen and (max-width: 1024px) {
+    header h1 {
+        font-size: 50px;
+    }
 
+    header li, header li a {
+        margin-right: 10px;
+        font-size: 15px;
+    }
+
+    section#sobre div.div-flex {
+        display: block;
+    }
+    
+    div#foto img {
+        width: 100%;
+    }
+    
+    div#texto h2 {
+        padding: 5px;
+        margin: 0px 10px 10px 10px;
+        width: 90%;
+    }
+    
+    div#texto p {
+        width: 85%;
+        padding-bottom: 25px;
+        margin: auto;
+    }
+    
+    section#produtos div {
+        width: 100%;
+        margin: 50px 0px 0px 0px;
+    }
+    
+    #lista-de-produtos {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    
+    #lista-de-produtos li {
+        width: 47%;
+        margin-bottom: 50px;
+    }
+    
+    #lista-de-produtos li img {
+        max-height: fit-content;
+        width: 100%;
+    }
+    
+    #preco {
+        width: 35%;
+    }
+    
+    #lista-de-produtos li button {
+        width: 60%;
+        height: 50px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    header h1 {
+        font-size: 40px;
+    }
+
+    header li, header li a {
+        margin-right: 10px;
+        font-size: 15px;
+    }
+
+    section#sobre div.div-flex {
+        display: block;
+        width: 85%;
+    }
+    
+    div#foto img {
+        width: 100%;
+    }
+    
+    div#texto h2 {
+        padding: 5px;
+        margin: 0px 10px 10px 10px;
+        width: 90%;
+    }
+    
+    div#texto p {
+        width: 85%;
+        padding-bottom: 25px;
+        margin: auto;
+    }
+    
+    section#produtos div {
+        width: 100%;
+        margin: 50px 0px 0px 0px;
+    }
+    
+    #lista-de-produtos {
+        display: block;
+        width: 85%;
+        margin: auto;
+    }
+    
+    #lista-de-produtos li {
+        width: 100%;
+        margin-bottom: 50px;
+        padding-top: 5px;
+    }
+    
+    #lista-de-produtos li img {
+        max-height: fit-content;
+        width: 100%;
+    }
+    
+    #preco {
+        width: 35%;
+    }
+    
+    #lista-de-produtos li button {
+        width: 60%;
+        height: 50px;
+        font-size: 17px;
+    }
+}
 
 
 
