@@ -1,0 +1,42 @@
+body {
+    background-color: gray;
+}
+
+.navbar {
+    background-color: rgb(55, 55, 55);
+    height: 90px;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 40px;
+    color: rgb(255, 63, 63);
+    text-shadow: 0px 0px 10px rgba(248, 0, 0, 0.526);
+}
+
+#menu a {
+    color: rgb(181, 181, 181);
+}
+
+.carousel-inner {
+    background-color: rgb(55, 55, 55);
+    padding: 0px 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.489);
+}
+
+.carousel-inner h2 {
+    color: rgb(181, 181, 181);
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.carousel-item h2 {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 10px rgb(147, 10, 10);
+}
+
+#carousel img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.489);
+}
