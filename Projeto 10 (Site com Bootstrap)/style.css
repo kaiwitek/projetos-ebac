@@ -3,8 +3,7 @@ body {
 }
 
 .navbar {
-    background-color: rgb(55, 55, 55);
-    height: 90px;
+    background-color: rgb(52, 52, 52);
     margin-bottom: 40px;
 }
 
@@ -14,8 +13,28 @@ header h1 {
     text-shadow: 0px 0px 10px rgba(248, 0, 0, 0.526);
 }
 
-#menu a {
+.nav-link {
     color: rgb(181, 181, 181);
+}
+
+.nav-link:hover {
+    color: rgb(255, 63, 63);
+    transition-duration: 0.5s;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    border-radius: 5px;
+    background-color: rgb(75, 75, 75);
+    margin: 5px;
+}
+
+li:hover {
+    border-bottom: 1px solid red;
+    transition-duration: 0.5s;
 }
 
 .carousel-inner {
@@ -25,7 +44,7 @@ header h1 {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.489);
 }
 
-.carousel-inner h2 {
+.carousel-inner h2, #funcoes-fundo h2, #agentes-fundo h2 {
     color: rgb(181, 181, 181);
     text-align: center;
     padding: 10px 0px;
@@ -39,4 +58,49 @@ header h1 {
 #carousel img {
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.489);
+}
+
+#funcoes-fundo, #agentes-fundo {
+    margin: 40px 0px;
+    background-color: rgb(55, 55, 55);
+    padding: 0px 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.489);
+}
+
+.card {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.489);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#funcoes .card {
+    margin: 0px 30px 30px 30px;
+    padding-top: 20px;
+}
+
+#agentes .card {
+    margin: 30px;
+    padding-top: 20px;
+    height: 550px;
+    width: 300px;
+}
+
+.card p {
+    width: 200px;
+}
+
+.card a {
+    margin: 20px 0px 10px 0px;
+}
+
+.card img {
+    width: 60%;
+}
+
+#agentes .card img {
+    border-radius: 10px;
+    background-color: gray;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.722);
 }
