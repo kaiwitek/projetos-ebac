@@ -1,0 +1,37 @@
+body {
+    font-family: 'roboto';
+}
+
+.navbar-brand {
+    font-family: 'kanit';
+    font-size: 40px;
+}
+
+.navbar {
+    background-color: rgb(206, 196, 161);
+}
+
+.nav .nav-link.active {
+    background-color: rgb(97, 81, 61);
+    color: rgb(214, 197, 172);
+}
+
+.nav .nav-link, .navbar-brand, .navbar-brand:hover {
+    color: rgb(97, 81, 61);
+}
+
+.navbar-toggler {
+    background-color: rgb(209, 205, 190);
+}
+
+.section-title {
+    font-family: 'kanit';
+}
+
+.section-title > span {
+    color: rgb(97, 81, 61);
+}
+
+#sobre {
+    background-color: rgb(206, 196, 161);
+}
