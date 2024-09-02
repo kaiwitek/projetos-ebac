@@ -1,0 +1,64 @@
+body {
+    font-family: 'roboto';
+}
+
+#cabecalho {
+    background-color: gray;
+}
+
+#cabecalho h1 {
+    font-family: 'kanit';
+    font-size: 40px;
+}
+
+.nav .nav-link {
+    color: white;
+}
+
+.nav .nav-link.active {
+    background-color: black;
+}
+
+.text-mod {
+    font-family: 'kanit';
+    color: rgb(54, 54, 54);
+}
+
+section#sobre {
+    background-color: rgb(192, 175, 152);
+}
+
+section#servicos {
+    background-color: rgb(178, 162, 141);
+}
+
+section#servicos img {
+    height: 300px;
+}
+
+section#carros {
+    background-color: rgb(162, 149, 130);
+}
+
+section#carros img {
+    height: 160px;
+}
+
+section#contato {
+    background-color: rgb(178, 163, 142);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
