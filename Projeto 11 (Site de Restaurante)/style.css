@@ -28,10 +28,48 @@ body {
     font-family: 'kanit';
 }
 
-.section-title > span {
+section#sobre {
+    background-color: rgb(206, 196, 161);
+}
+
+section#eventos {
+    background-color: rgb(184, 176, 148);
+}
+
+section#cardapio {
+    background-color: rgb(165, 160, 133);
+}
+
+section#contato {
+    background-color: rgb(142, 135, 112);
+}
+
+.text-colored {
     color: rgb(97, 81, 61);
 }
 
-#sobre {
-    background-color: rgb(206, 196, 161);
+.nav-cardapio .nav-link.active, .nav-cardapio .nav-link.active:hover, #contato button {
+    background-color: rgb(97, 81, 61);
+    color: white;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: rgb(97, 81, 61);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    
 }
